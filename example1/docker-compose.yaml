@@ -11,7 +11,8 @@ services:
       - REDIS_URL=redis://redis:6379/0
 
   redis:
-    image: "redis:alpine"
+    # image: "redis:alpine"
+    image: redislabs/redismod
     ports:
       - "6379:6379"
 
@@ -23,3 +24,7 @@ services:
       - "8081:8081"
     depends_on:
       - redis
+  redisinsight:
+    image: redislabs/redisinsight:latest
+    ports:
+      - "5540:5540"
