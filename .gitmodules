@@ -1,3 +1,6 @@
 [submodule "fastapi-redis-tutorial"]
 	path = fastapi-redis-tutorial
 	url = git@github.com:nonjosh/fastapi-redis-tutorial.git
+[submodule "fastapi_cache"]
+	path = fastapi_cache
+	url = git@github.com:nonjosh/fastapi_cache.git
