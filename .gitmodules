@@ -1,0 +1,3 @@
+[submodule "fastapi-redis-tutorial"]
+	path = fastapi-redis-tutorial
+	url = git@github.com:nonjosh/fastapi-redis-tutorial.git
